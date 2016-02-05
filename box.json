@@ -1,0 +1,14 @@
+{
+  "main": "bin/console",
+  "output": "uptime.phar",
+  "stub": true,
+  "chmod": "0755",
+  "directories": ["src"],
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": ["Tests"],
+      "in": "vendor"
+    }
+  ]
+}

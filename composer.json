@@ -1,0 +1,35 @@
+{
+    "name": "piktalent/uptime",
+    "description": "an uptime service",
+    "type": "project",
+    "require": {
+        "raven/raven": "^0.13.0",
+        "symfony/console": "^3.0",
+        "guzzlehttp/guzzle": "~5.0",
+        "symfony/yaml": "^3.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tech",
+            "email": "tech@piktalent.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Uptime\\": "src/"
+        }
+    },
+    "bin": [
+        "bin/console"
+    ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "symfony/var-dumper": "^3.0"
+    }
+}
